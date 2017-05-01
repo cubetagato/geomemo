@@ -12,10 +12,59 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    var imageStore: ImageStore?
+    var seedStore: SeedStore?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //-----------------------------------------------------------------------------------------
+        // Stores Initialization
+        //-----------------------------------------------------------------------------------------
+        
+        imageStore = ImageStore()
+        seedStore = SeedStore()
+        
+        //-----------------------------------------------------------------------------------------
+        
+        //-----------------------------------------------------------------------------------------
+        // UI Initialization
+        //-----------------------------------------------------------------------------------------
+        
+        let seedMemoViewController: SeedMemoViewController = SeedMemoViewController(nibName: "SeedMemoView", bundle: nil)
+        seedMemoViewController.imageStore = imageStore
+        seedMemoViewController.seedStore = seedStore
+        let setupViewController: SetupViewController = SetupViewController(nibName: "SetupView", bundle: nil)
+        let mapViewController: MapViewController = MapViewController(nibName: "MapView", bundle: nil)
+        
+        seedMemoViewController.tabBarItem = UITabBarItem (title: "SEED", image: UIImage(named: Constants.APP.TABBAR.TAB_SEED_ICON_NAME), tag: Constants.APP.TABBAR.TAB_SEED_VIEW_TAG)
+        setupViewController.tabBarItem = UITabBarItem (title: "SETUP", image: UIImage(named: Constants.APP.TABBAR.TAB_SETUP_ICON_NAME), tag: Constants.APP.TABBAR.TAB_SETUP_VIEW_TAG)
+        mapViewController.tabBarItem = UITabBarItem (title: "MAP", image: UIImage(named: Constants.APP.TABBAR.TAB_MAP_ICON_NAME), tag: Constants.APP.TABBAR.TAB_MAP_VIEW_TAG)
+        
+        let seedNavController: UINavigationController = UINavigationController()
+        seedNavController.viewControllers = [seedMemoViewController]
+        seedNavController.navigationBar.isTranslucent = false
+        let setupNavController: UINavigationController = UINavigationController()
+        setupNavController.viewControllers = [setupViewController]
+        let mapNavController: UINavigationController = UINavigationController()
+        mapNavController.viewControllers = [mapViewController]
+        
+        let tabBarController: UITabBarController? = UITabBarController()
+        
+        tabBarController!.viewControllers = [
+            mapNavController,
+            seedNavController,
+            setupNavController
+        ]
+        
+        tabBarController!.selectedIndex = Constants.APP.TABBAR.TAB_DEFAUL_SELECTED_INDEX
+        tabBarController!.tabBar.isTranslucent = false
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window!.rootViewController = tabBarController
+        window!.makeKeyAndVisible()
+        //-----------------------------------------------------------------------------------------
+        
         return true
     }
 

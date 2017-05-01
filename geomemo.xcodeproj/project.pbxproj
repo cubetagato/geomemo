@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		634B87AA1EB04FA6008E8589 /* NewSeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B87A81EB04FA6008E8589 /* NewSeedViewController.swift */; };
+		634B87AB1EB04FA6008E8589 /* NewSeedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634B87A91EB04FA6008E8589 /* NewSeedView.xib */; };
+		634B87AE1EB054DA008E8589 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634B87AD1EB054DA008E8589 /* MapKit.framework */; };
+		634B87B01EB111E9008E8589 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634B87AF1EB111E9008E8589 /* CoreLocation.framework */; };
+		634B87B71EB2DC22008E8589 /* LocationSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B87B51EB2DC22008E8589 /* LocationSearchTableViewController.swift */; };
+		634B87B81EB2DC22008E8589 /* LocationSearchTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634B87B61EB2DC22008E8589 /* LocationSearchTableView.xib */; };
+		634B87BB1EB42A17008E8589 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B87B91EB42A17008E8589 /* SearchTableViewCell.swift */; };
+		634B87BC1EB42A17008E8589 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634B87BA1EB42A17008E8589 /* SearchTableViewCell.xib */; };
 		6383B17B1EA5031A00A64D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383B17A1EA5031A00A64D7A /* AppDelegate.swift */; };
 		6383B17D1EA5031A00A64D7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383B17C1EA5031A00A64D7A /* ViewController.swift */; };
-		6383B1801EA5031A00A64D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6383B17E1EA5031A00A64D7A /* Main.storyboard */; };
 		6383B1821EA5031A00A64D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6383B1811EA5031A00A64D7A /* Assets.xcassets */; };
 		6383B1851EA5031A00A64D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6383B1831EA5031A00A64D7A /* LaunchScreen.storyboard */; };
+		6383B1911EA508A000A64D7A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383B1901EA508A000A64D7A /* Constants.swift */; };
+		6383B19C1EA51BFD00A64D7A /* SeedMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383B19A1EA51BFD00A64D7A /* SeedMemoViewController.swift */; };
+		6383B19D1EA51BFD00A64D7A /* SeedMemoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6383B19B1EA51BFD00A64D7A /* SeedMemoView.xib */; };
+		6383B19F1EA51C2600A64D7A /* SeedMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383B19E1EA51C2600A64D7A /* SeedMemoView.swift */; };
+		6383B1A21EA5359A00A64D7A /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383B1A01EA5359A00A64D7A /* SetupViewController.swift */; };
+		6383B1A31EA5359A00A64D7A /* SetupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6383B1A11EA5359A00A64D7A /* SetupView.xib */; };
+		6383B1A61EA536F900A64D7A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383B1A41EA536F900A64D7A /* MapViewController.swift */; };
+		6383B1A71EA536F900A64D7A /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6383B1A51EA536F900A64D7A /* MapView.xib */; };
+		63AB39E51EAC350300505809 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB39E41EAC350300505809 /* ImageStore.swift */; };
+		63AB39E71EAC3F8A00505809 /* Seed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB39E61EAC3F8A00505809 /* Seed.swift */; };
+		63AB39E91EAC48C100505809 /* SeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB39E81EAC48C100505809 /* SeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		634B87A81EB04FA6008E8589 /* NewSeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewSeedViewController.swift; path = ../Views/NewSeedViewController.swift; sourceTree = "<group>"; };
+		634B87A91EB04FA6008E8589 /* NewSeedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewSeedView.xib; sourceTree = "<group>"; };
+		634B87AD1EB054DA008E8589 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		634B87AF1EB111E9008E8589 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		634B87B51EB2DC22008E8589 /* LocationSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationSearchTableViewController.swift; path = ../Views/LocationSearchTableViewController.swift; sourceTree = "<group>"; };
+		634B87B61EB2DC22008E8589 /* LocationSearchTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationSearchTableView.xib; sourceTree = "<group>"; };
+		634B87B91EB42A17008E8589 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchTableViewCell.swift; path = ../Views/SearchTableViewCell.swift; sourceTree = "<group>"; };
+		634B87BA1EB42A17008E8589 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
 		6383B1771EA5031A00A64D7A /* geomemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geomemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6383B17A1EA5031A00A64D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6383B17A1EA5031A00A64D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = geomemo/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		6383B17C1EA5031A00A64D7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6383B17F1EA5031A00A64D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6383B1811EA5031A00A64D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6383B1841EA5031A00A64D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6383B1861EA5031A00A64D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6383B1901EA508A000A64D7A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6383B19A1EA51BFD00A64D7A /* SeedMemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeedMemoViewController.swift; sourceTree = "<group>"; };
+		6383B19B1EA51BFD00A64D7A /* SeedMemoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeedMemoView.xib; sourceTree = "<group>"; };
+		6383B19E1EA51C2600A64D7A /* SeedMemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeedMemoView.swift; sourceTree = "<group>"; };
+		6383B1A01EA5359A00A64D7A /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		6383B1A11EA5359A00A64D7A /* SetupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupView.xib; sourceTree = "<group>"; };
+		6383B1A41EA536F900A64D7A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6383B1A51EA536F900A64D7A /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		63AB39E41EAC350300505809 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		63AB39E61EAC3F8A00505809 /* Seed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seed.swift; sourceTree = "<group>"; };
+		63AB39E81EAC48C100505809 /* SeedStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634B87B01EB111E9008E8589 /* CoreLocation.framework in Frameworks */,
+				634B87AE1EB054DA008E8589 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		634B87AC1EB054DA008E8589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				634B87AF1EB111E9008E8589 /* CoreLocation.framework */,
+				634B87AD1EB054DA008E8589 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6383B16E1EA5031A00A64D7A = {
 			isa = PBXGroup;
 			children = (
 				6383B1791EA5031A00A64D7A /* geomemo */,
 				6383B1781EA5031A00A64D7A /* Products */,
+				634B87AC1EB054DA008E8589 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +102,70 @@
 		6383B1791EA5031A00A64D7A /* geomemo */ = {
 			isa = PBXGroup;
 			children = (
-				6383B17A1EA5031A00A64D7A /* AppDelegate.swift */,
+				6386BDD71EABD6DD008BEA6B /* Delegates */,
+				6383B18F1EA5087200A64D7A /* App */,
+				6383B18E1EA5081500A64D7A /* Controllers */,
+				6383B18D1EA5080D00A64D7A /* Views */,
+				6383B18C1EA507F700A64D7A /* Models */,
 				6383B17C1EA5031A00A64D7A /* ViewController.swift */,
-				6383B17E1EA5031A00A64D7A /* Main.storyboard */,
 				6383B1811EA5031A00A64D7A /* Assets.xcassets */,
 				6383B1831EA5031A00A64D7A /* LaunchScreen.storyboard */,
 				6383B1861EA5031A00A64D7A /* Info.plist */,
 			);
 			path = geomemo;
+			sourceTree = "<group>";
+		};
+		6383B18C1EA507F700A64D7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63AB39E61EAC3F8A00505809 /* Seed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6383B18D1EA5080D00A64D7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6383B1A51EA536F900A64D7A /* MapView.xib */,
+				6383B1A11EA5359A00A64D7A /* SetupView.xib */,
+				6383B19B1EA51BFD00A64D7A /* SeedMemoView.xib */,
+				6383B19E1EA51C2600A64D7A /* SeedMemoView.swift */,
+				634B87A91EB04FA6008E8589 /* NewSeedView.xib */,
+				634B87B61EB2DC22008E8589 /* LocationSearchTableView.xib */,
+				634B87BA1EB42A17008E8589 /* SearchTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6383B18E1EA5081500A64D7A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6383B19A1EA51BFD00A64D7A /* SeedMemoViewController.swift */,
+				6383B1A01EA5359A00A64D7A /* SetupViewController.swift */,
+				634B87B51EB2DC22008E8589 /* LocationSearchTableViewController.swift */,
+				6383B1A41EA536F900A64D7A /* MapViewController.swift */,
+				634B87A81EB04FA6008E8589 /* NewSeedViewController.swift */,
+				634B87B91EB42A17008E8589 /* SearchTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6383B18F1EA5087200A64D7A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6383B17A1EA5031A00A64D7A /* AppDelegate.swift */,
+				6383B1901EA508A000A64D7A /* Constants.swift */,
+				63AB39E41EAC350300505809 /* ImageStore.swift */,
+				63AB39E81EAC48C100505809 /* SeedStore.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6386BDD71EABD6DD008BEA6B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +228,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634B87AB1EB04FA6008E8589 /* NewSeedView.xib in Resources */,
+				634B87BC1EB42A17008E8589 /* SearchTableViewCell.xib in Resources */,
+				634B87B81EB2DC22008E8589 /* LocationSearchTableView.xib in Resources */,
+				6383B1A31EA5359A00A64D7A /* SetupView.xib in Resources */,
+				6383B19D1EA51BFD00A64D7A /* SeedMemoView.xib in Resources */,
 				6383B1851EA5031A00A64D7A /* LaunchScreen.storyboard in Resources */,
+				6383B1A71EA536F900A64D7A /* MapView.xib in Resources */,
 				6383B1821EA5031A00A64D7A /* Assets.xcassets in Resources */,
-				6383B1801EA5031A00A64D7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +247,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				6383B17D1EA5031A00A64D7A /* ViewController.swift in Sources */,
+				6383B19C1EA51BFD00A64D7A /* SeedMemoViewController.swift in Sources */,
 				6383B17B1EA5031A00A64D7A /* AppDelegate.swift in Sources */,
+				634B87AA1EB04FA6008E8589 /* NewSeedViewController.swift in Sources */,
+				634B87B71EB2DC22008E8589 /* LocationSearchTableViewController.swift in Sources */,
+				63AB39E51EAC350300505809 /* ImageStore.swift in Sources */,
+				6383B19F1EA51C2600A64D7A /* SeedMemoView.swift in Sources */,
+				63AB39E71EAC3F8A00505809 /* Seed.swift in Sources */,
+				634B87BB1EB42A17008E8589 /* SearchTableViewCell.swift in Sources */,
+				63AB39E91EAC48C100505809 /* SeedStore.swift in Sources */,
+				6383B1A21EA5359A00A64D7A /* SetupViewController.swift in Sources */,
+				6383B1911EA508A000A64D7A /* Constants.swift in Sources */,
+				6383B1A61EA536F900A64D7A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6383B17E1EA5031A00A64D7A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6383B17F1EA5031A00A64D7A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6383B1831EA5031A00A64D7A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,6 +414,7 @@
 				6383B18B1EA5031A00A64D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
